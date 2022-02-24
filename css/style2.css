@@ -35,6 +35,15 @@ a {
     text-decoration: none;
 }
 
+
+/* Efecto del menu */
+
+li a:hover {
+    background: goldenrod;
+    color: black;
+    padding: 7px 10px 7px 10px;
+}
+
 h1 {
     color: white;
 }
@@ -180,7 +189,7 @@ footer {
 
 @media screen and (max-width:768px) {
     h1 {
-        color: red;
+        color: gold;
     }
     .cuadro {
         display: grid;
@@ -299,3 +308,44 @@ footer {
         margin-bottom: 20px;
     }
 }
+
+
+/* Degradacion de color en fondo */
+
+
+/* footer { 
+    background-image: linear-gradient(to right, black, gray);
+}*/
+
+
+/* transicion de fondo */
+
+.transition {
+    height: 150px;
+    transition: all 2s;
+}
+
+.transition:hover {
+    height: 170px;
+}
+
+
+/* Anamicion de translate */
+
+
+/*  
+@keyframes animacionlogo {
+    0% {
+        transform: translateX(900px);
+    }
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.animacion {
+    animation: animacionlogo;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}*/
