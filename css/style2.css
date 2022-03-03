@@ -65,6 +65,16 @@ table {
     color: goldenrod;
 }
 
+input {
+    margin: 10px;
+}
+
+input:hover {
+    height: 30px;
+    width: 200px;
+    transition: all 2s;
+}
+
 .grid_body {
     display: grid;
     grid-template-areas: "header" "main" "footer";
